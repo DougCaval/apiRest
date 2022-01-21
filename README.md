@@ -3,27 +3,8 @@ apiRest with NodeJs
 
 ### Primeiro passo digitar o comando npm init para iniciar um projeto node dentro da sua pasta 
 
-Será gerado um arquivo package.json contendo :
+Será gerado um arquivo package.json
 
-{
-  "name": "apirest", //Nome do Projeto
-  "version": "1.0.0", //Versão deste projeto
-  "description": "apiRest with NodeJs", //Descrição do motivo pelo qual esse projeto está sendo criado
-  "main": "index.js", 
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DougCaval/apiRest.git" //Repositório onde está no GitHub
-  },
-  "author": "Doug Caval", // Quem criou esse projeto 
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DougCaval/apiRest/issues"
-  },
-  "homepage": "https://github.com/DougCaval/apiRest#readme"
-}
 
 ### Para instalar dependências que você vai usar neste projeto 
 
@@ -46,6 +27,8 @@ Ajuda a fazer o hot reload , quando salvar , automaticamente ele atualiza o proj
  - npm instal morgan
 
 Toda requisição que for feita dá pra ver o  log de requisição 
+
+Você pode utilizar o comando npm install express body-parser cors nodemon morgan para fazer toda instalação de uma vez só ou usar os comandos separados como descrito 
 
 
 ### by Doug Caval 
